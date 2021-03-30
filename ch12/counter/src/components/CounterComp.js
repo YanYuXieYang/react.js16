@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2021-03-28 23:36:21
- * @LastEditTime: 2021-03-28 23:43:38
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \react.js16\ch12\counter\src\components\CounterComp.js
- */
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { CounterType } from '../actions'

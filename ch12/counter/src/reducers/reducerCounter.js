@@ -1,11 +1,4 @@
-/*
- * @Author: your name
- * @Date: 2021-03-28 23:44:04
- * @LastEditTime: 2021-03-28 23:44:05
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \react.js16\ch12\counter\src\reducers\reducerCounter.js
- */
+// import { CounterType } from '../actions'与import { CounterType } from '../actions/index'效果一样。而且actions/目录中的index.js不能改名为index2.js
 import { CounterType } from '../actions'
 // TODO: reducer
 var reducerCounter = (state = 0, action) => {
